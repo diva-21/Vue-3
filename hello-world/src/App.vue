@@ -23,6 +23,7 @@ export default ({
   methods:{},
   computed:{},
   watch:{
+    // watchers deep and imemdiate have to learnt 
     count(newValue,oldValue){
       // console.log(`new is ${newValue} old is ${oldValue}`);
       if(newValue>oldValue && newValue==16){
